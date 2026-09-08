@@ -5,19 +5,156 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pathways Academy — Learn &amp; Grow | Pathways to Purpose</title>
   <meta name="description" content="Structured learning modules to help you develop personal mastery, communication, employability, leadership and more. Watch, read, reflect, apply, challenge.">
-  <link rel="icon" href="../images/logo.jpeg" type="image/jpeg">
+  <link rel="icon" href="../images/logo.webp" type="image/jpeg">
   <link rel="stylesheet" href="../css/styles.css">
+  <!-- Optimized Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
+  <a href="#main-content" class="skip-to-main">Skip to main content</a>
   <nav class="navbar" role="navigation" aria-label="Main navigation">
     <div class="navbar-inner">
-      <a href="../index.html" class="navbar-logo"><img src="../images/logo.jpeg" alt="Pathways to Purpose Logo" width="48" height="48"><div class="navbar-logo-text">Pathways to Purpose<span>Global Shapers Harare Hub</span></div></a>
-      <div class="navbar-links"><a href="journey.html">Start Your Journey</a><a href="learn.html" class="active">Learn</a><a href="explore.html">Explore</a><a href="opportunities.html">Opportunities</a><a href="mentors.html">Mentors</a><a href="stories.html">Stories</a><a href="community.html">Community</a><a href="about.html">About</a></div>
-      <div class="navbar-cta"><a href="journey.html" class="btn btn-primary btn-sm">Start Your Journey</a></div>
-      <button class="navbar-toggle" aria-label="Toggle navigation menu"><span></span><span></span><span></span></button>
+      <a href="../index.html" class="navbar-logo" aria-label="Pathways to Purpose Home">
+        <img src="../images/logo.webp" alt="Pathways to Purpose Logo" width="48" height="48">
+        <div class="navbar-logo-text">
+          Pathways to Purpose
+          <span>Global Shapers Harare Hub</span>
+        </div>
+      </a>
+
+      <div class="navbar-links">
+        <a href="journey.html">Start Your Journey</a>
+
+        <!-- Dropdown 1: Learn & Grow -->
+        <div class="nav-item-dropdown">
+          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button">
+            Learn &amp; Grow <span class="chevron">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="learn.html">
+              <div>
+                <strong>Pathways Academy</strong>
+                <span>Structured courses &amp; learning modules</span>
+              </div>
+            </a>
+            <a href="journey.html">
+              <div>
+                <strong>Self-Discovery Journey</strong>
+                <span>Strengths, values, vision &amp; purpose</span>
+              </div>
+            </a>
+            <a href="challenges.html">
+              <div>
+                <strong>Growth Challenges</strong>
+                <span>7-day &amp; 30-day practical action plans</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Dropdown 2: Careers & Opportunities -->
+        <div class="nav-item-dropdown">
+          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button">
+            Careers &amp; Opportunities <span class="chevron">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="explore.html">
+              <div>
+                <strong>Explore Careers</strong>
+                <span>Discover career fields &amp; prerequisites</span>
+              </div>
+            </a>
+            <a href="opportunities.html">
+              <div>
+                <strong>Opportunities Hub</strong>
+                <span>Scholarships, fellowships &amp; bursaries</span>
+              </div>
+            </a>
+            <a href="mentors.html">
+              <div>
+                <strong>Meet Mentors</strong>
+                <span>Connect with experienced leaders</span>
+              </div>
+            </a>
+            <a href="stories.html">
+              <div>
+                <strong>Pathways Stories</strong>
+                <span>Real journeys of Zimbabwean youth</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Dropdown 3: Community & Engagement -->
+        <div class="nav-item-dropdown">
+          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button">
+            Community &amp; Engagement <span class="chevron">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="community.html">
+              <div>
+                <strong>The Pathfinders Community</strong>
+                <span>Peer mentorship &amp; weekly reflections</span>
+              </div>
+            </a>
+            <a href="schools.html">
+              <div>
+                <strong>For Schools</strong>
+                <span>School visits &amp; workshop programs</span>
+              </div>
+            </a>
+            <a href="get-involved.html">
+              <div>
+                <strong>Become a Mentor / Partner</strong>
+                <span>Join our mentor network or partner with us</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <a href="about.html">About</a>
+      </div>
+
+      <div class="navbar-cta">
+        <a href="journey.html" class="btn btn-primary btn-sm">Start Your Journey</a>
+      </div>
+
+      <button class="navbar-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </nav>
-  <div class="mobile-menu"><a href="journey.html">Start Your Journey</a><a href="learn.html">Learn</a><a href="explore.html">Explore</a><a href="opportunities.html">Opportunities</a><a href="mentors.html">Mentors</a><a href="stories.html">Stories</a><a href="challenges.html">Challenges</a><a href="community.html">Community</a><a href="about.html">About</a><a href="get-involved.html">Get Involved</a></div>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" role="navigation" aria-label="Mobile navigation">
+    <div class="mobile-category-title">Personal Journey</div>
+    <a href="journey.html">Start Your Journey</a>
+    
+    <div class="mobile-category-title">Learn &amp; Grow</div>
+    <a href="learn.html">Pathways Academy</a>
+    <a href="journey.html">Self-Discovery Journey</a>
+    <a href="challenges.html">Growth Challenges</a>
+
+    <div class="mobile-category-title">Careers &amp; Opportunities</div>
+    <a href="explore.html">Explore Careers</a>
+    <a href="opportunities.html">Opportunities Hub</a>
+    <a href="mentors.html">Meet Mentors</a>
+    <a href="stories.html">Pathways Stories</a>
+
+    <div class="mobile-category-title">Community &amp; Impact</div>
+    <a href="community.html">The Pathfinders Community</a>
+    <a href="schools.html">For Schools</a>
+    <a href="get-involved.html">Get Involved</a>
+
+    <div class="mobile-category-title">About</div>
+    <a href="about.html">About Pathways</a>
+
+    <a href="journey.html" class="btn btn-primary btn-lg" style="margin-top: var(--space-6);">Start Your Journey</a>
+  </div>
 
   <main class="page-content">
     <section class="page-hero">
@@ -77,7 +214,7 @@
             <div class="card-body">
               <p class="card-text">Explore your identity, personality, strengths and unique qualities. The foundation of your entire journey starts with self-awareness.</p>
               <div class="course-meta"><span>📚 5 lessons</span><span>⏱ 2 hours</span></div>
-              <a href="#" class="btn btn-outline btn-sm" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
+              <a href="#" class="btn btn-outline btn-sm" data-course-id="c1" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
             </div>
           </div>
 
@@ -89,7 +226,7 @@
             <div class="card-body">
               <p class="card-text">Overcome self-doubt, build resilience and develop the discipline and growth mindset that every successful person needs.</p>
               <div class="course-meta"><span>📚 6 lessons</span><span>⏱ 3 hours</span></div>
-              <a href="#" class="btn btn-outline btn-sm" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
+              <a href="#" class="btn btn-outline btn-sm" data-course-id="c2" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
             </div>
           </div>
 
@@ -102,7 +239,7 @@
             <div class="card-body">
               <p class="card-text">Understand the difference between purpose, passion and career. Learn why purpose is about direction, not just a job title.</p>
               <div class="course-meta"><span>📚 4 lessons</span><span>⏱ 2 hours</span></div>
-              <a href="#" class="btn btn-outline btn-sm" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
+              <a href="#" class="btn btn-outline btn-sm" data-course-id="c3" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
             </div>
           </div>
 
@@ -114,7 +251,7 @@
             <div class="card-body">
               <p class="card-text">Create a compelling vision for your future and break it down into actionable goals with clear timelines and milestones.</p>
               <div class="course-meta"><span>📚 5 lessons</span><span>⏱ 2.5 hours</span></div>
-              <a href="#" class="btn btn-outline btn-sm" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
+              <a href="#" class="btn btn-outline btn-sm" data-course-id="c4" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
             </div>
           </div>
 
@@ -126,7 +263,7 @@
             <div class="card-body">
               <p class="card-text">Learn to analyse information, evaluate options and make decisions that align with your values and goals.</p>
               <div class="course-meta"><span>📚 4 lessons</span><span>⏱ 2 hours</span></div>
-              <a href="#" class="btn btn-outline btn-sm" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
+              <a href="#" class="btn btn-outline btn-sm" data-course-id="c5" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
             </div>
           </div>
 
@@ -139,7 +276,7 @@
             <div class="card-body">
               <p class="card-text">Master the art of clear communication, public speaking, active listening and building meaningful professional relationships.</p>
               <div class="course-meta"><span>📚 6 lessons</span><span>⏱ 3 hours</span></div>
-              <a href="#" class="btn btn-outline btn-sm" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
+              <a href="#" class="btn btn-outline btn-sm" data-course-id="c6" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
             </div>
           </div>
 
@@ -151,7 +288,7 @@
             <div class="card-body">
               <p class="card-text">Build your CV, prepare for interviews, develop your digital presence and understand what employers are looking for.</p>
               <div class="course-meta"><span>📚 7 lessons</span><span>⏱ 3.5 hours</span></div>
-              <a href="#" class="btn btn-outline btn-sm" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
+              <a href="#" class="btn btn-outline btn-sm" data-course-id="c7" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
             </div>
           </div>
 
@@ -163,7 +300,7 @@
             <div class="card-body">
               <p class="card-text">Understand AI, digital tools, online safety and the changing nature of work. Learn to use technology critically and responsibly.</p>
               <div class="course-meta"><span>📚 5 lessons</span><span>⏱ 2.5 hours</span></div>
-              <a href="#" class="btn btn-outline btn-sm" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
+              <a href="#" class="btn btn-outline btn-sm" data-course-id="c8" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
             </div>
           </div>
 
@@ -176,7 +313,7 @@
             <div class="card-body">
               <p class="card-text">Discover different career paths, understand what they involve, and learn how to research careers that align with your purpose.</p>
               <div class="course-meta"><span>📚 5 lessons</span><span>⏱ 2.5 hours</span></div>
-              <a href="#" class="btn btn-outline btn-sm" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
+              <a href="#" class="btn btn-outline btn-sm" data-course-id="c9" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
             </div>
           </div>
 
@@ -188,7 +325,7 @@
             <div class="card-body">
               <p class="card-text">Learn where and how to find scholarships, internships, competitions, fellowships and other opportunities that can change your trajectory.</p>
               <div class="course-meta"><span>📚 4 lessons</span><span>⏱ 2 hours</span></div>
-              <a href="#" class="btn btn-outline btn-sm" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
+              <a href="#" class="btn btn-outline btn-sm" data-course-id="c10" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
             </div>
           </div>
 
@@ -200,7 +337,7 @@
             <div class="card-body">
               <p class="card-text">Understand how to find, approach and learn from mentors. Build a professional network even while you're still a student.</p>
               <div class="course-meta"><span>📚 4 lessons</span><span>⏱ 2 hours</span></div>
-              <a href="#" class="btn btn-outline btn-sm" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
+              <a href="#" class="btn btn-outline btn-sm" data-course-id="c11" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
             </div>
           </div>
 
@@ -213,7 +350,7 @@
             <div class="card-body">
               <p class="card-text">Step into leadership. Learn to create initiatives, mobilise others, serve your community and build a legacy of impact.</p>
               <div class="course-meta"><span>📚 5 lessons</span><span>⏱ 2.5 hours</span></div>
-              <a href="#" class="btn btn-outline btn-sm" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
+              <a href="#" class="btn btn-outline btn-sm" data-course-id="c12" style="margin-top: var(--space-4); width: 100%;">Start Course</a>
             </div>
           </div>
         </div>
@@ -327,7 +464,7 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
-        <div class="footer-brand"><div class="footer-logo"><img src="../images/logo.jpeg" alt="Pathways to Purpose" width="48" height="48" loading="lazy"><div class="footer-logo-text">Pathways to Purpose<span>A youth development initiative of Global Shapers Harare Hub</span></div></div><p>Equipping young people with the skills, opportunities and mindset to thrive.</p></div>
+        <div class="footer-brand"><div class="footer-logo"><img src="../images/logo.webp" alt="Pathways to Purpose" width="48" height="48" loading="lazy"><div class="footer-logo-text">Pathways to Purpose<span>A youth development initiative of Global Shapers Harare Hub</span></div></div><p>Equipping young people with the skills, opportunities and mindset to thrive.</p></div>
         <div class="footer-col"><h4>Journey</h4><a href="journey.html">Start Your Journey</a><a href="learn.html">Pathways Academy</a><a href="explore.html">Explore Careers</a><a href="opportunities.html">Opportunities</a></div>
         <div class="footer-col"><h4>Connect</h4><a href="mentors.html">Meet Mentors</a><a href="stories.html">Stories</a><a href="community.html">The Pathfinders</a><a href="schools.html">For Schools</a></div>
         <div class="footer-col"><h4>About</h4><a href="about.html">About Pathways</a><a href="about.html#safeguarding">Safeguarding</a><a href="about.html#privacy">Privacy</a></div>
@@ -338,5 +475,25 @@
   <button class="back-to-top" aria-label="Back to top">↑</button>
   <script src="../js/icons.js"></script>
   <script src="../js/main.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof highlightActiveNav === 'function') {
+        highlightActiveNav();
+      }
+    });
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        // Paths handle both root and /pages/ subdirectory
+        const swPath = window.location.pathname.includes('/pages/') ? '../sw.js' : './sw.js';
+        navigator.serviceWorker.register(swPath).catch(err => {
+          console.log('Service Worker registration failed:', err);
+        });
+      });
+    }
+  </script>
 </body>
 </html>

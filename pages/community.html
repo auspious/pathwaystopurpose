@@ -5,16 +5,159 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Pathfinders Community — Pathways to Purpose</title>
   <meta name="description" content="Join the Pathfinders — a community for high school and university students who want to learn, grow, connect and build their futures together.">
-  <link rel="icon" href="../images/logo.jpeg" type="image/jpeg">
+  <link rel="icon" href="../images/logo.webp" type="image/jpeg">
   <link rel="stylesheet" href="../css/styles.css">
+  <!-- Optimized Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar" role="navigation"><div class="navbar-inner"><a href="../index.html" class="navbar-logo"><img src="../images/logo.jpeg" alt="" width="48" height="48"><div class="navbar-logo-text">Pathways to Purpose<span>Global Shapers Harare Hub</span></div></a><div class="navbar-links"><a href="journey.html">Start Your Journey</a><a href="learn.html">Learn</a><a href="explore.html">Explore</a><a href="opportunities.html">Opportunities</a><a href="mentors.html">Mentors</a><a href="stories.html">Stories</a><a href="community.html" class="active">Community</a><a href="about.html">About</a></div><div class="navbar-cta"><a href="journey.html" class="btn btn-primary btn-sm">Start Your Journey</a></div><button class="navbar-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button></div></nav>
-  <div class="mobile-menu"><a href="journey.html">Start Your Journey</a><a href="learn.html">Learn</a><a href="explore.html">Explore</a><a href="opportunities.html">Opportunities</a><a href="mentors.html">Mentors</a><a href="stories.html">Stories</a><a href="challenges.html">Challenges</a><a href="community.html">Community</a><a href="about.html">About</a><a href="get-involved.html">Get Involved</a></div>
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="navbar-inner">
+      <a href="../index.html" class="navbar-logo" aria-label="Pathways to Purpose Home">
+        <img src="../images/logo.webp" alt="Pathways to Purpose Logo" width="48" height="48">
+        <div class="navbar-logo-text">
+          Pathways to Purpose
+          <span>Global Shapers Harare Hub</span>
+        </div>
+      </a>
+
+      <div class="navbar-links">
+        <a href="journey.html">Start Your Journey</a>
+
+        <!-- Dropdown 1: Learn & Grow -->
+        <div class="nav-item-dropdown">
+          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button">
+            Learn &amp; Grow <span class="chevron">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="learn.html">
+              <div>
+                <strong>Pathways Academy</strong>
+                <span>Structured courses &amp; learning modules</span>
+              </div>
+            </a>
+            <a href="journey.html">
+              <div>
+                <strong>Self-Discovery Journey</strong>
+                <span>Strengths, values, vision &amp; purpose</span>
+              </div>
+            </a>
+            <a href="challenges.html">
+              <div>
+                <strong>Growth Challenges</strong>
+                <span>7-day &amp; 30-day practical action plans</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Dropdown 2: Careers & Opportunities -->
+        <div class="nav-item-dropdown">
+          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button">
+            Careers &amp; Opportunities <span class="chevron">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="explore.html">
+              <div>
+                <strong>Explore Careers</strong>
+                <span>Discover career fields &amp; prerequisites</span>
+              </div>
+            </a>
+            <a href="opportunities.html">
+              <div>
+                <strong>Opportunities Hub</strong>
+                <span>Scholarships, fellowships &amp; bursaries</span>
+              </div>
+            </a>
+            <a href="mentors.html">
+              <div>
+                <strong>Meet Mentors</strong>
+                <span>Connect with experienced leaders</span>
+              </div>
+            </a>
+            <a href="stories.html">
+              <div>
+                <strong>Pathways Stories</strong>
+                <span>Real journeys of Zimbabwean youth</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Dropdown 3: Community & Engagement -->
+        <div class="nav-item-dropdown">
+          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button">
+            Community &amp; Engagement <span class="chevron">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="community.html">
+              <div>
+                <strong>The Pathfinders Community</strong>
+                <span>Peer mentorship &amp; weekly reflections</span>
+              </div>
+            </a>
+            <a href="schools.html">
+              <div>
+                <strong>For Schools</strong>
+                <span>School visits &amp; workshop programs</span>
+              </div>
+            </a>
+            <a href="get-involved.html">
+              <div>
+                <strong>Get Involved</strong>
+                <span>Become a mentor, sponsor or partner</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <a href="about.html">About</a>
+      </div>
+
+      <div class="navbar-cta">
+        <a href="journey.html" class="btn btn-primary btn-sm">Start Your Journey</a>
+      </div>
+
+      <button class="navbar-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" role="navigation" aria-label="Mobile navigation">
+    <div class="mobile-category-title">Personal Journey</div>
+    <a href="journey.html">Start Your Journey</a>
+    
+    <div class="mobile-category-title">Learn &amp; Grow</div>
+    <a href="learn.html">Pathways Academy</a>
+    <a href="journey.html">Self-Discovery Journey</a>
+    <a href="challenges.html">Growth Challenges</a>
+
+    <div class="mobile-category-title">Careers &amp; Opportunities</div>
+    <a href="explore.html">Explore Careers</a>
+    <a href="opportunities.html">Opportunities Hub</a>
+    <a href="mentors.html">Meet Mentors</a>
+    <a href="stories.html">Pathways Stories</a>
+
+    <div class="mobile-category-title">Community &amp; Impact</div>
+    <a href="community.html">The Pathfinders Community</a>
+    <a href="schools.html">For Schools</a>
+    <a href="get-involved.html">Get Involved</a>
+
+    <div class="mobile-category-title">About</div>
+    <a href="about.html">About Pathways</a>
+
+    <a href="journey.html" class="btn btn-primary btn-lg" style="margin-top: var(--space-6);">Start Your Journey</a>
+  </div>
 
   <main class="page-content">
     <section class="community-section" style="padding: var(--space-32) 0 var(--space-16);">
-      <div class="community-bg"><img src="../images/community-youth.jpg" alt="" width="1920" height="1080" loading="eager"></div>
+      <div class="community-bg"><img src="../images/community-youth.webp" alt="" width="1920" height="1080" loading="eager"></div>
       <div class="container community-content">
         <div class="breadcrumb" style="margin-bottom: var(--space-6);"><a href="../index.html" style="color: rgba(255,255,255,0.5);">Home</a><span style="color: rgba(255,255,255,0.3);">/</span><span class="current" style="color: var(--color-gold);">Community</span></div>
         <p class="text-overline reveal" style="color: var(--color-gold);">Join The Movement</p>
@@ -133,16 +276,36 @@
           <p class="text-overline" style="color: var(--color-gold); margin-bottom: var(--space-4);">Ready to Join?</p>
           <h2>The Pathfinders Are Waiting for You</h2>
           <p>Join a community of young people who are serious about growth, purpose and building their futures together.</p>
-          <a href="#" class="btn btn-primary btn-lg">Join the Pathfinders Community</a>
+          <a href="#" class="btn btn-primary btn-lg btn-join-community">Join the Pathfinders Community</a>
           <p style="font-size: var(--text-xs); color: rgba(255,255,255,0.5); margin-top: var(--space-4); margin-bottom: 0;">The community is moderated and guided by the Pathways to Purpose programme team. Communication boundaries and safeguarding measures are in place.</p>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><div class="footer-logo"><img src="../images/logo.jpeg" alt="" width="48" height="48" loading="lazy"><div class="footer-logo-text">Pathways to Purpose<span>A youth development initiative of Global Shapers Harare Hub</span></div></div><p>Equipping young people with the skills, opportunities and mindset to thrive.</p></div><div class="footer-col"><h4>Journey</h4><a href="journey.html">Start Your Journey</a><a href="learn.html">Academy</a><a href="explore.html">Careers</a><a href="opportunities.html">Opportunities</a></div><div class="footer-col"><h4>Connect</h4><a href="mentors.html">Mentors</a><a href="stories.html">Stories</a><a href="community.html">Community</a><a href="schools.html">Schools</a></div><div class="footer-col"><h4>About</h4><a href="about.html">About</a><a href="about.html#safeguarding">Safeguarding</a><a href="about.html#privacy">Privacy</a></div></div><div class="footer-bottom"><p>&copy; 2025 Pathways to Purpose · Global Shapers Harare Hub</p><div class="footer-bottom-links"><a href="about.html#privacy">Privacy</a><a href="about.html#safeguarding">Safeguarding</a></div></div></div></footer>
+  <footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><div class="footer-logo"><img src="../images/logo.webp" alt="" width="48" height="48" loading="lazy"><div class="footer-logo-text">Pathways to Purpose<span>A youth development initiative of Global Shapers Harare Hub</span></div></div><p>Equipping young people with the skills, opportunities and mindset to thrive.</p></div><div class="footer-col"><h4>Journey</h4><a href="journey.html">Start Your Journey</a><a href="learn.html">Academy</a><a href="explore.html">Careers</a><a href="opportunities.html">Opportunities</a></div><div class="footer-col"><h4>Connect</h4><a href="mentors.html">Mentors</a><a href="stories.html">Stories</a><a href="community.html">Community</a><a href="schools.html">Schools</a></div><div class="footer-col"><h4>About</h4><a href="about.html">About</a><a href="about.html#safeguarding">Safeguarding</a><a href="about.html#privacy">Privacy</a></div></div><div class="footer-bottom"><p>&copy; 2025 Pathways to Purpose · Global Shapers Harare Hub</p><div class="footer-bottom-links"><a href="about.html#privacy">Privacy</a><a href="about.html#safeguarding">Safeguarding</a></div></div></div></footer>
   <button class="back-to-top" aria-label="Back to top">↑</button>
   <script src="../js/icons.js"></script>
   <script src="../js/main.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof highlightActiveNav === 'function') {
+        highlightActiveNav();
+      }
+    });
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        // Paths handle both root and /pages/ subdirectory
+        const swPath = window.location.pathname.includes('/pages/') ? '../sw.js' : './sw.js';
+        navigator.serviceWorker.register(swPath).catch(err => {
+          console.log('Service Worker registration failed:', err);
+        });
+      });
+    }
+  </script>
 </body>
 </html>

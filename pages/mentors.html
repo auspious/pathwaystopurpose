@@ -5,12 +5,156 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meet Your Mentors — Pathways to Purpose</title>
   <meta name="description" content="Connect with professionals who can guide your journey. Meet mentors in technology, medicine, engineering, business, law and more.">
-  <link rel="icon" href="../images/logo.jpeg" type="image/jpeg">
+  <link rel="icon" href="../images/logo.webp" type="image/jpeg">
   <link rel="stylesheet" href="../css/styles.css">
+  <!-- Optimized Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar" role="navigation"><div class="navbar-inner"><a href="../index.html" class="navbar-logo"><img src="../images/logo.jpeg" alt="" width="48" height="48"><div class="navbar-logo-text">Pathways to Purpose<span>Global Shapers Harare Hub</span></div></a><div class="navbar-links"><a href="journey.html">Start Your Journey</a><a href="learn.html">Learn</a><a href="explore.html">Explore</a><a href="opportunities.html">Opportunities</a><a href="mentors.html" class="active">Mentors</a><a href="stories.html">Stories</a><a href="community.html">Community</a><a href="about.html">About</a></div><div class="navbar-cta"><a href="journey.html" class="btn btn-primary btn-sm">Start Your Journey</a></div><button class="navbar-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button></div></nav>
-  <div class="mobile-menu"><a href="journey.html">Start Your Journey</a><a href="learn.html">Learn</a><a href="explore.html">Explore</a><a href="opportunities.html">Opportunities</a><a href="mentors.html">Mentors</a><a href="stories.html">Stories</a><a href="challenges.html">Challenges</a><a href="community.html">Community</a><a href="about.html">About</a><a href="get-involved.html">Get Involved</a></div>
+  <a href="#main-content" class="skip-to-main">Skip to main content</a>
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="navbar-inner">
+      <a href="../index.html" class="navbar-logo" aria-label="Pathways to Purpose Home">
+        <img src="../images/logo.webp" alt="Pathways to Purpose Logo" width="48" height="48">
+        <div class="navbar-logo-text">
+          Pathways to Purpose
+          <span>Global Shapers Harare Hub</span>
+        </div>
+      </a>
+
+      <div class="navbar-links">
+        <a href="journey.html">Start Your Journey</a>
+
+        <!-- Dropdown 1: Learn & Grow -->
+        <div class="nav-item-dropdown">
+          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button">
+            Learn &amp; Grow <span class="chevron">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="learn.html">
+              <div>
+                <strong>Pathways Academy</strong>
+                <span>Structured courses &amp; learning modules</span>
+              </div>
+            </a>
+            <a href="journey.html">
+              <div>
+                <strong>Self-Discovery Journey</strong>
+                <span>Strengths, values, vision &amp; purpose</span>
+              </div>
+            </a>
+            <a href="challenges.html">
+              <div>
+                <strong>Growth Challenges</strong>
+                <span>7-day &amp; 30-day practical action plans</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Dropdown 2: Careers & Opportunities -->
+        <div class="nav-item-dropdown">
+          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button">
+            Careers &amp; Opportunities <span class="chevron">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="explore.html">
+              <div>
+                <strong>Explore Careers</strong>
+                <span>Discover career fields &amp; prerequisites</span>
+              </div>
+            </a>
+            <a href="opportunities.html">
+              <div>
+                <strong>Opportunities Hub</strong>
+                <span>Scholarships, fellowships &amp; bursaries</span>
+              </div>
+            </a>
+            <a href="mentors.html">
+              <div>
+                <strong>Meet Mentors</strong>
+                <span>Connect with experienced leaders</span>
+              </div>
+            </a>
+            <a href="stories.html">
+              <div>
+                <strong>Pathways Stories</strong>
+                <span>Real journeys of Zimbabwean youth</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Dropdown 3: Community & Engagement -->
+        <div class="nav-item-dropdown">
+          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button">
+            Community &amp; Engagement <span class="chevron">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="community.html">
+              <div>
+                <strong>The Pathfinders Community</strong>
+                <span>Peer mentorship &amp; weekly reflections</span>
+              </div>
+            </a>
+            <a href="schools.html">
+              <div>
+                <strong>For Schools</strong>
+                <span>School visits &amp; workshop programs</span>
+              </div>
+            </a>
+            <a href="get-involved.html">
+              <div>
+                <strong>Get Involved</strong>
+                <span>Become a mentor, sponsor or partner</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <a href="about.html">About</a>
+      </div>
+
+      <div class="navbar-cta">
+        <a href="journey.html" class="btn btn-primary btn-sm">Start Your Journey</a>
+      </div>
+
+      <button class="navbar-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" role="navigation" aria-label="Mobile navigation">
+    <div class="mobile-category-title">Personal Journey</div>
+    <a href="journey.html">Start Your Journey</a>
+    
+    <div class="mobile-category-title">Learn &amp; Grow</div>
+    <a href="learn.html">Pathways Academy</a>
+    <a href="journey.html">Self-Discovery Journey</a>
+    <a href="challenges.html">Growth Challenges</a>
+
+    <div class="mobile-category-title">Careers &amp; Opportunities</div>
+    <a href="explore.html">Explore Careers</a>
+    <a href="opportunities.html">Opportunities Hub</a>
+    <a href="mentors.html">Meet Mentors</a>
+    <a href="stories.html">Pathways Stories</a>
+
+    <div class="mobile-category-title">Community &amp; Impact</div>
+    <a href="community.html">The Pathfinders Community</a>
+    <a href="schools.html">For Schools</a>
+    <a href="get-involved.html">Get Involved</a>
+
+    <div class="mobile-category-title">About</div>
+    <a href="about.html">About Pathways</a>
+
+    <a href="journey.html" class="btn btn-primary btn-lg" style="margin-top: var(--space-6);">Start Your Journey</a>
+  </div>
 
   <main class="page-content">
     <section class="page-hero">
@@ -31,8 +175,16 @@
           <p>New mentors are joining the Pathways network. Each mentor is connected to the programme through Global Shapers Harare Hub.</p>
         </div>
 
-        <div class="grid grid-3">
-          <div class="mentor-card reveal delay-1">
+        <div class="tabs reveal" data-target="mentors-grid">
+          <button class="tab-btn active" data-filter="all">All Mentors</button>
+          <button class="tab-btn" data-filter="tech">Tech &amp; Engineering</button>
+          <button class="tab-btn" data-filter="health">Healthcare &amp; Science</button>
+          <button class="tab-btn" data-filter="business">Business &amp; Entrepreneurship</button>
+          <button class="tab-btn" data-filter="impact">Social Impact &amp; Education</button>
+        </div>
+
+        <div class="grid grid-3" id="mentors-grid">
+          <div class="mentor-card reveal delay-1" data-category="tech">
             <div class="mentor-avatar-header" style="background: linear-gradient(135deg, #0B1D51 0%, #1B75BB 100%);">
               <svg class="mentor-cartoon" viewBox="0 0 200 160" width="100%" height="160" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="100" cy="80" r="60" fill="rgba(255,255,255,0.08)" />
@@ -63,7 +215,7 @@
             </div>
           </div>
 
-          <div class="mentor-card reveal delay-2">
+          <div class="mentor-card reveal delay-2" data-category="health">
             <div class="mentor-avatar-header" style="background: linear-gradient(135deg, #1B75BB 0%, #5DADE2 100%);">
               <svg class="mentor-cartoon" viewBox="0 0 200 160" width="100%" height="160" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="100" cy="80" r="60" fill="rgba(255,255,255,0.08)" />
@@ -93,7 +245,7 @@
             </div>
           </div>
 
-          <div class="mentor-card reveal delay-3">
+          <div class="mentor-card reveal delay-3" data-category="business">
             <div class="mentor-avatar-header" style="background: linear-gradient(135deg, #F4A62A 0%, #D35400 100%);">
               <svg class="mentor-cartoon" viewBox="0 0 200 160" width="100%" height="160" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="100" cy="80" r="60" fill="rgba(255,255,255,0.12)" />
@@ -120,13 +272,65 @@
               <div class="mentor-tags"><span class="card-tag">Business</span><span class="card-tag">Entrepreneurship</span></div>
             </div>
           </div>
+
+          <div class="mentor-card reveal" data-category="tech">
+            <div class="mentor-avatar-header" style="background: linear-gradient(135deg, #1E8449 0%, #2ECC71 100%);">
+              <svg class="mentor-cartoon" viewBox="0 0 200 160" width="100%" height="160" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="80" r="60" fill="rgba(255,255,255,0.1)" />
+                <path d="M40 160 Q100 110 160 160 Z" fill="#0B1D51" />
+                <rect x="90" y="95" width="20" height="25" rx="5" fill="#B86F43"/>
+                <ellipse cx="100" cy="75" rx="29" ry="33" fill="#C97E4F"/>
+                <path d="M68 68 Q100 35 132 68 Z" fill="#1C1311"/>
+                <circle cx="88" cy="73" r="3" fill="#1C1311"/>
+                <circle cx="112" cy="73" r="3" fill="#1C1311"/>
+                <path d="M92 90 Q100 97 108 90" fill="none" stroke="#1C1311" stroke-width="3" stroke-linecap="round"/>
+                <g transform="translate(145, 35)">
+                  <circle cx="14" cy="14" r="14" fill="#2ECC71"/>
+                  <path d="M8 14 l4 4 8-8" stroke="#FFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                </g>
+              </svg>
+            </div>
+            <div class="mentor-info">
+              <h3 class="mentor-name">Infrastructure &amp; Civil Mentor</h3>
+              <p class="mentor-role">Civil Engineer · Infrastructure</p>
+              <p class="mentor-bio">Guiding Zimbabwean youth into engineering, renewable energy, and community infrastructure development.</p>
+              <p style="font-size: var(--text-sm); color: var(--color-navy); font-weight: 600; font-style: italic; margin-bottom: var(--space-3);">"What I wish I knew at 16: Engineering is about solving real human problems in your community."</p>
+              <div class="mentor-tags"><span class="card-tag">Civil Engineering</span><span class="card-tag">Infrastructure</span><span class="card-tag">Energy</span></div>
+            </div>
+          </div>
+
+          <div class="mentor-card reveal delay-1" data-category="impact">
+            <div class="mentor-avatar-header" style="background: linear-gradient(135deg, #8E44AD 0%, #3498DB 100%);">
+              <svg class="mentor-cartoon" viewBox="0 0 200 160" width="100%" height="160" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="80" r="60" fill="rgba(255,255,255,0.12)" />
+                <path d="M45 160 Q100 115 155 160 Z" fill="#F4A62A" />
+                <rect x="90" y="95" width="20" height="25" rx="5" fill="#D98A5C"/>
+                <ellipse cx="100" cy="75" rx="29" ry="33" fill="#E89F71"/>
+                <path d="M70 65 Q100 30 130 65 Z" fill="#2C1B18"/>
+                <circle cx="88" cy="73" r="3" fill="#2C1B18"/>
+                <circle cx="112" cy="73" r="3" fill="#2C1B18"/>
+                <path d="M92 90 Q100 97 108 90" fill="none" stroke="#2C1B18" stroke-width="3" stroke-linecap="round"/>
+                <g transform="translate(145, 35)">
+                  <circle cx="14" cy="14" r="14" fill="#8E44AD"/>
+                  <path d="M9 14 h10 M14 9 v10" stroke="#FFF" stroke-width="2.5" stroke-linecap="round"/>
+                </g>
+              </svg>
+            </div>
+            <div class="mentor-info">
+              <h3 class="mentor-name">Creative &amp; Media Mentor</h3>
+              <p class="mentor-role">Media Producer · Social Impact</p>
+              <p class="mentor-bio">Supporting young creatives in storytelling, digital content creation, journalism, and community arts initiatives.</p>
+              <p style="font-size: var(--text-sm); color: var(--color-navy); font-weight: 600; font-style: italic; margin-bottom: var(--space-3);">"What I wish I knew at 16: Your voice and story have the power to inspire an entire community."</p>
+              <div class="mentor-tags"><span class="card-tag">Media</span><span class="card-tag">Storytelling</span><span class="card-tag">Arts</span></div>
+            </div>
+          </div>
         </div>
 
         <div class="empty-state reveal" style="margin-top: var(--space-12);">
           <div class="icon-box icon-box-lg icon-box-gold" style="width: 56px; height: 56px; margin: 0 auto var(--space-4);"><span class="icon" data-icon="leaf"></span></div>
           <h3>More Mentors Joining Soon</h3>
           <p>New mentors are joining the Pathways network. Check back soon for updated profiles, or join the Pathfinders community to connect with mentors during our sessions.</p>
-          <a href="community.html" class="btn btn-outline">Join the Pathfinders</a>
+          <a href="community.html" class="btn btn-outline btn-join-community">Join the Pathfinders</a>
         </div>
 
         <div style="background: var(--color-surface-alt); border-radius: var(--radius-lg); padding: var(--space-6); margin-top: var(--space-10);" class="reveal">
@@ -140,9 +344,29 @@
     <section class="section-lg"><div class="container"><div class="cta-banner reveal"><h2>Want to Become a Mentor?</h2><p>Share your experience and help a young person navigate their journey. Join the growing Pathways mentor network.</p><a href="get-involved.html" class="btn btn-primary btn-lg">Become a Mentor</a></div></div></section>
   </main>
 
-  <footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><div class="footer-logo"><img src="../images/logo.jpeg" alt="" width="48" height="48" loading="lazy"><div class="footer-logo-text">Pathways to Purpose<span>Global Shapers Harare Hub</span></div></div><p>Equipping young people with the skills, opportunities and mindset to thrive.</p></div><div class="footer-col"><h4>Journey</h4><a href="journey.html">Start Your Journey</a><a href="learn.html">Academy</a><a href="explore.html">Careers</a><a href="opportunities.html">Opportunities</a></div><div class="footer-col"><h4>Connect</h4><a href="mentors.html">Mentors</a><a href="stories.html">Stories</a><a href="community.html">Community</a><a href="schools.html">Schools</a></div><div class="footer-col"><h4>About</h4><a href="about.html">About</a><a href="about.html#safeguarding">Safeguarding</a><a href="about.html#privacy">Privacy</a></div></div><div class="footer-bottom"><p>&copy; 2025 Pathways to Purpose · Global Shapers Harare Hub</p><div class="footer-bottom-links"><a href="about.html#privacy">Privacy</a><a href="about.html#safeguarding">Safeguarding</a></div></div></div></footer>
+  <footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><div class="footer-logo"><img src="../images/logo.webp" alt="" width="48" height="48" loading="lazy"><div class="footer-logo-text">Pathways to Purpose<span>Global Shapers Harare Hub</span></div></div><p>Equipping young people with the skills, opportunities and mindset to thrive.</p></div><div class="footer-col"><h4>Journey</h4><a href="journey.html">Start Your Journey</a><a href="learn.html">Academy</a><a href="explore.html">Careers</a><a href="opportunities.html">Opportunities</a></div><div class="footer-col"><h4>Connect</h4><a href="mentors.html">Mentors</a><a href="stories.html">Stories</a><a href="community.html">Community</a><a href="schools.html">Schools</a></div><div class="footer-col"><h4>About</h4><a href="about.html">About</a><a href="about.html#safeguarding">Safeguarding</a><a href="about.html#privacy">Privacy</a></div></div><div class="footer-bottom"><p>&copy; 2025 Pathways to Purpose · Global Shapers Harare Hub</p><div class="footer-bottom-links"><a href="about.html#privacy">Privacy</a><a href="about.html#safeguarding">Safeguarding</a></div></div></div></footer>
   <button class="back-to-top" aria-label="Back to top">↑</button>
   <script src="../js/icons.js"></script>
   <script src="../js/main.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof highlightActiveNav === 'function') {
+        highlightActiveNav();
+      }
+    });
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        // Paths handle both root and /pages/ subdirectory
+        const swPath = window.location.pathname.includes('/pages/') ? '../sw.js' : './sw.js';
+        navigator.serviceWorker.register(swPath).catch(err => {
+          console.log('Service Worker registration failed:', err);
+        });
+      });
+    }
+  </script>
 </body>
 </html>

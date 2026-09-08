@@ -14,14 +14,18 @@
   <meta property="og:title" content="Pathways to Purpose — Build Your Future">
   <meta property="og:description"
     content="Discover who you are, understand your purpose, develop your abilities, explore your possibilities and take intentional steps toward the future you want.">
-  <meta property="og:image" content="images/hero-youth.jpg">
+  <meta property="og:image" content="images/hero-youth.webp">
   <meta property="og:type" content="website">
 
   <!-- Favicon -->
-  <link rel="icon" href="images/logo.jpeg" type="image/jpeg">
+  <link rel="icon" href="images/logo.webp" type="image/jpeg">
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/styles.css">
+  <!-- Optimized Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,10 +34,11 @@
   <a href="#main-content" class="skip-to-main">Skip to main content</a>
 
   <!-- ===== NAVBAR ===== -->
+  <!-- ===== NAVBAR ===== -->
   <nav class="navbar" role="navigation" aria-label="Main navigation">
     <div class="navbar-inner">
       <a href="index.html" class="navbar-logo" aria-label="Pathways to Purpose Home">
-        <img src="images/logo.jpeg" alt="Pathways to Purpose Logo" width="48" height="48" loading="eager">
+        <img src="images/logo.webp" alt="Pathways to Purpose Logo" width="48" height="48" loading="eager">
         <div class="navbar-logo-text">
           Pathways to Purpose
           <span>Global Shapers Harare Hub</span>
@@ -42,12 +47,94 @@
 
       <div class="navbar-links">
         <a href="pages/journey.html">Start Your Journey</a>
-        <a href="pages/learn.html">Learn</a>
-        <a href="pages/explore.html">Explore</a>
-        <a href="pages/opportunities.html">Opportunities</a>
-        <a href="pages/mentors.html">Mentors</a>
-        <a href="pages/stories.html">Stories</a>
-        <a href="pages/community.html">Community</a>
+
+        <!-- Dropdown 1: Learn & Grow -->
+        <div class="nav-item-dropdown">
+          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button">
+            Learn &amp; Grow <span class="chevron">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="pages/learn.html">
+              <div>
+                <strong>Pathways Academy</strong>
+                <span>Structured courses &amp; learning modules</span>
+              </div>
+            </a>
+            <a href="pages/journey.html">
+              <div>
+                <strong>Self-Discovery Journey</strong>
+                <span>Strengths, values, vision &amp; purpose</span>
+              </div>
+            </a>
+            <a href="pages/challenges.html">
+              <div>
+                <strong>Growth Challenges</strong>
+                <span>7-day &amp; 30-day practical action plans</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Dropdown 2: Careers & Opportunities -->
+        <div class="nav-item-dropdown">
+          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button">
+            Careers &amp; Opportunities <span class="chevron">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="pages/explore.html">
+              <div>
+                <strong>Explore Careers</strong>
+                <span>Discover career fields &amp; prerequisites</span>
+              </div>
+            </a>
+            <a href="pages/opportunities.html">
+              <div>
+                <strong>Opportunities Hub</strong>
+                <span>Scholarships, fellowships &amp; bursaries</span>
+              </div>
+            </a>
+            <a href="pages/mentors.html">
+              <div>
+                <strong>Meet Mentors</strong>
+                <span>Connect with experienced leaders</span>
+              </div>
+            </a>
+            <a href="pages/stories.html">
+              <div>
+                <strong>Pathways Stories</strong>
+                <span>Real journeys of Zimbabwean youth</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Dropdown 3: Community & Engagement -->
+        <div class="nav-item-dropdown">
+          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button">
+            Community &amp; Engagement <span class="chevron">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="pages/community.html">
+              <div>
+                <strong>The Pathfinders Community</strong>
+                <span>Peer mentorship &amp; weekly reflections</span>
+              </div>
+            </a>
+            <a href="pages/schools.html">
+              <div>
+                <strong>For Schools</strong>
+                <span>School visits &amp; workshop programs</span>
+              </div>
+            </a>
+            <a href="pages/get-involved.html">
+              <div>
+                <strong>Get Involved</strong>
+                <span>Become a mentor, sponsor or partner</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
         <a href="pages/about.html">About</a>
       </div>
 
@@ -65,17 +152,29 @@
 
   <!-- Mobile Menu -->
   <div class="mobile-menu" role="navigation" aria-label="Mobile navigation">
+    <div class="mobile-category-title">Personal Journey</div>
     <a href="pages/journey.html">Start Your Journey</a>
-    <a href="pages/learn.html">Learn</a>
+
+    <div class="mobile-category-title">Learn &amp; Grow</div>
+    <a href="pages/learn.html">Pathways Academy</a>
+    <a href="pages/journey.html">Self-Discovery Journey</a>
+    <a href="pages/challenges.html">Growth Challenges</a>
+
+    <div class="mobile-category-title">Careers &amp; Opportunities</div>
     <a href="pages/explore.html">Explore Careers</a>
-    <a href="pages/opportunities.html">Opportunities</a>
-    <a href="pages/mentors.html">Mentors</a>
-    <a href="pages/stories.html">Stories</a>
-    <a href="pages/challenges.html">Challenges</a>
-    <a href="pages/community.html">Community</a>
-    <a href="pages/about.html">About</a>
+    <a href="pages/opportunities.html">Opportunities Hub</a>
+    <a href="pages/mentors.html">Meet Mentors</a>
+    <a href="pages/stories.html">Pathways Stories</a>
+
+    <div class="mobile-category-title">Community &amp; Impact</div>
+    <a href="pages/community.html">The Pathfinders Community</a>
+    <a href="pages/schools.html">For Schools</a>
     <a href="pages/get-involved.html">Get Involved</a>
-    <a href="pages/journey.html" class="btn btn-primary btn-lg" style="margin-top: var(--space-4);">Start Your
+
+    <div class="mobile-category-title">About</div>
+    <a href="pages/about.html">About Pathways</a>
+
+    <a href="pages/journey.html" class="btn btn-primary btn-lg" style="margin-top: var(--space-6);">Start Your
       Journey</a>
   </div>
 
@@ -83,7 +182,7 @@
     <!-- ===== SECTION 1: HERO ===== -->
     <section class="hero" id="hero">
       <div class="hero-bg">
-        <img src="images/hero-youth.jpg" alt="Young Zimbabwean students looking toward a bright future" width="1920"
+        <img src="images/hero-youth.webp" alt="Young Zimbabwean students looking toward a bright future" width="1920"
           height="1080" loading="eager" fetchpriority="high">
       </div>
       <div class="hero-content">
@@ -308,7 +407,7 @@
           </div>
 
           <div class="reveal-right delay-2">
-            <img src="images/learning-session.jpg" alt="Young students learning together in a modern classroom"
+            <img src="images/learning-session.webp" alt="Young students learning together in a modern classroom"
               style="border-radius: var(--radius-xl); box-shadow: var(--shadow-lg);" loading="lazy" width="600"
               height="400" decoding="async">
           </div>
@@ -415,7 +514,7 @@
     <!-- ===== SECTION 8: COMMUNITY CTA ===== -->
     <section class="community-section section-lg" id="community">
       <div class="community-bg">
-        <img src="images/community-youth.jpg" alt="Young people gathered in community discussion" width="1920"
+        <img src="images/community-youth.webp" alt="Young people gathered in community discussion" width="1920"
           height="1080" loading="lazy" decoding="async">
       </div>
       <div class="container community-content">
@@ -496,7 +595,7 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="footer-logo">
-            <img src="images/logo.jpeg" alt="Pathways to Purpose" width="48" height="48" loading="lazy"
+            <img src="images/logo.webp" alt="Pathways to Purpose" width="48" height="48" loading="lazy"
               decoding="async">
             <div class="footer-logo-text">
               Pathways to Purpose
@@ -558,6 +657,26 @@
   <!-- Scripts -->
   <script src="js/icons.js"></script>
   <script src="js/main.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof highlightActiveNav === 'function') {
+        highlightActiveNav();
+      }
+    });
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        // Paths handle both root and /pages/ subdirectory
+        const swPath = window.location.pathname.includes('/pages/') ? '../sw.js' : './sw.js';
+        navigator.serviceWorker.register(swPath).catch(err => {
+          console.log('Service Worker registration failed:', err);
+        });
+      });
+    }
+  </script>
 </body>
 
 </html>
